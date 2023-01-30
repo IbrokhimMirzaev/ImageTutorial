@@ -45,8 +45,8 @@ class SecondActivity : AppCompatActivity() {
 
     private fun loadViews() {
         img = findViewById(R.id.extended)
-        btnBack = findViewById(R.id.back)
-        btnForward = findViewById(R.id.forward)
+        btnBack = findViewById(R.id.backBtn)
+        btnForward = findViewById(R.id.forwardBtn)
     }
 
     private fun loadList() {
